@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/trpod-website/', // Added to support subfolder hosting on GitHub Pages temporary URL
+    base: '/', // Added to support subfolder hosting on GitHub Pages temporary URL
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
