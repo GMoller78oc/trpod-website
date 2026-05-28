@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Hansek Grotesk';
+  src: local('Helvetica Neue'), local('Arial');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-navy: #13274b;
+  --color-brand-teal: #05a7c2;
+  --color-brand-red: #8b1f22;
+  --color-brand-light: #0A0A0B;
+  
+  --font-sans: "Hansek Grotesk", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #FFFFFF 0%, #71717A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+  }
+  .accent-glow {
+    box-shadow: 0 0 30px rgba(5, 167, 194, 0.15);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-brand-light);
+  color: white;
+}

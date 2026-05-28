@@ -1,0 +1,6 @@
+{
+  "name": "TPROD Solutions",
+  "description": "Marketing web presence for TPROD Solutions focusing on Cloud Architecture, Process Automation, Power Platform, and Fabric Data Architecture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
